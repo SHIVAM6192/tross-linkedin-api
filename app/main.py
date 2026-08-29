@@ -50,7 +50,7 @@ def root():
     return {"message": "API is running. Visit /docs for Swagger UI."}
 
 @app.get("/api/profile", response_model=ProfileResponse, tags=["Scraper"])
-@limiter.limit("6/minute")
+@limiter.limit("10/minute")
 async def fetch_profile(request : Request, url: str = Query(..., description="The full LinkedIn profile URL")):
     """
     Main endpoint to fetch profile data.
