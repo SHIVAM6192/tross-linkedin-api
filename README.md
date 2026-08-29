@@ -180,25 +180,25 @@ curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=http
   "profile_urn": "urn:li:fsd_profile:ACoAADTlokIBH8xiCbEnxXBUF7d1QwWamQTWPmU",
   "industry": "Information Technology & Services",
   "full_name": "Shivam Sagar",
-  "headline": "Software Developer | ASP.NET | C# | Python | Machine Learning",
-  "about": "I’m a Software Developer with professional experience building enterprise web applications...",
-  "location": "Pune District, Maharashtra, India",
-  "profile_picture_url": "[https://media.licdn.com/dms/image/v2/.../crop_800_800/](https://media.licdn.com/dms/image/v2/.../crop_800_800/)...",
-  "background_picture_url": "[https://media.licdn.com/dms/image/v2/.../350_1400/](https://media.licdn.com/dms/image/v2/.../350_1400/)...",
+  "headline": "Software Developer | ASP.NET | C# | FastAPI | Python | Machine Learning",
+  "about": "I’m a Software Developer with professional experience building and maintaining enterprise web applications using C#, ASP.NET MVC/Core, SQL Server, and REST APIs.My experience includes developing backend services and APIs for FinTech and payment-processing applications, integrating third-party payment gateways such as Visa, Mastercard, AMEX, and PayPal, and working on transaction processing, payment reconciliation, chargeback management, and risk management solutions.I enjoy solving real-world engineering problems through clean, maintainable code and scalable backend solutions. I have hands-on experience with Entity Framework, SQL optimization, stored procedures, debugging, testing, Git, Agile/Scrum, and SDLC, along with experience troubleshooting and supporting applications in live environments.Beyond professional development, I continuously strengthen my problem-solving and data-structure skills, having solved 200+ LeetCode problems in Java. I’m also interested in exploring modern technologies, particularly Artificial Intelligence and Machine Learning, and understanding how they can complement traditional software engineering.Currently, I’m focused on growing as a strong backend/.NET developer and building reliable, scalable, and business-focused software solutions.",
+  "location": null,
+  "profile_picture_url": "https://media.licdn.com/dms/image/v2/D4D03AQF3oOmFya51JA/profile-displayphoto-crop_800_800/B4DZyKwfYYJIAI-/0/1771854494957?e=1789603200&v=beta&t=y966Vz0DRBS9vB7czHYTpsXVqUqvbCFPZvuSA9nzCGA",
+  "background_picture_url": "https://media.licdn.com/dms/image/v2/D5616AQERWquZGNxlRg/profile-displaybackgroundimage-shrink_350_1400/B56Z_sp2D5KEAY-/0/1786381820411?e=1789603200&v=beta&t=i0aO-6Xeg6gsIUjPytdc3wvhJELuigSnrRhxeb1FuFs",
   "featured_media": [
     {
       "title": "Resume",
-      "description": "Software Developer with experience building enterprise web applications...",
-      "url": "[https://media.licdn.com/dms/document/media/v2/.../profile-treasury-document-sanitized-pdf/](https://media.licdn.com/dms/document/media/v2/.../profile-treasury-document-sanitized-pdf/)...",
+      "description": "Software Developer with experience building enterprise web applications using C#, ASP.NET MVC/Core, SQL Server, and REST APIs. Experienced in FinTech and payment-processing applications, integrating Visa, Mastercard, AMEX, and PayPal gateways, transaction processing, reconciliation, and risk management. Skilled in API development, SQL optimization, Entity Framework, debugging, testing, Agile/Scrum, and SDLC. Solved 200+ LeetCode problems in Java.",
+      "url": "https://media.licdn.com/dms/document/media/v2/D4D2DAQHlnnE8jFm0XA/profile-treasury-document-sanitized-pdf/B4DaAz3GBSHoAw-/0/1787576477323?e=1788634800&v=beta&t=lTytK9JvWAjpkxG70nxEsMzRYQ7FhMq1q2Gg0Rz3Sds",
       "media_type": "Document",
-      "thumbnail_url": "[https://media.licdn.com/dms/image/v2/.../1920/](https://media.licdn.com/dms/image/v2/.../1920/)..."
+      "thumbnail_url": "https://media.licdn.com/dms/image/v2/D4D2DAQHlnnE8jFm0XA/profile-treasury-document-cover-images_1920/B4DaAz3GBSHoBE-/0/1787576477323?e=1788634800&v=beta&t=i17HBIdkBmN6k4-jjvWiTJ0QTLZSTrDIjqxmGuMGN3s"
     },
     {
       "title": "s_shivam04 - LeetCode Profile",
       "description": null,
-      "url": "[https://leetcode.com/u/s_shivam04/](https://leetcode.com/u/s_shivam04/)",
+      "url": "https://leetcode.com/u/s_shivam04/",
       "media_type": "Link",
-      "thumbnail_url": "[https://media.licdn.com/dms/image/sync/v2/.../1280_800/](https://media.licdn.com/dms/image/sync/v2/.../1280_800/)..."
+      "thumbnail_url": "https://media.licdn.com/dms/image/sync/v2/D4D27AQFRikvhwc_dfA/articleshare-shrink_160/B4DZ_mWCQvJwAU-/0/1786275964963?e=1788634800&v=beta&t=CgLhxU-rwccfAOpfolEsLGEKSC8NIG_0sZ2igZvaRrU"
     }
   ],
   "experiences": [
@@ -208,7 +208,7 @@ curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=http
       "title": "Software Developer",
       "company_name": "Aloha Technology",
       "location": "Pune City",
-      "description": "- Developed and maintained web applications using ASP.NET MVC, C#, and SQL Server.\n- Designed and implemented scheduled tasks to automate business processes..."
+      "description": "- Developed and maintained web applications using ASP.NET MVC, C#, and SQL Server.\n- Designed and implemented scheduled tasks to automate business processes and improve system efficiency.\n- Built and enhanced responsive user interfaces using HTML, CSS, JavaScript, and Bootstrap.\n- Wrote optimized SQL queries, stored procedures, and performed database management in SQL Server.\n- Worked in an Agile development environment, actively using Jira for sprint planning, task tracking, bug reporting, and team collaboration.\n- Participated in debugging, testing, feature implementation, and application maintenance while collaborating with cross-functional teams."
     }
   ],
   "educations": [
@@ -219,6 +219,14 @@ curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=http
       "degree_name": "Masters Of Computer Application(MCA)",
       "field_of_study": "Computer Science",
       "grade": "CGPA: 8.09"
+    },
+    {
+      "start_date": "09/2020",
+      "end_date": "03/2023",
+      "school_name": "Sangola College Sangola",
+      "degree_name": "Bachelor of Entire Computer Science",
+      "field_of_study": "Computer Science",
+      "grade": "A+(8.55 CGPA)"
     }
   ],
   "projects": [
@@ -226,18 +234,58 @@ curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=http
       "start_date": "11/2025",
       "end_date": "12/2025",
       "title": "High-Concurrency Ticketing API",
-      "description": "An enterprise-grade .NET 8 Web API built to handle extreme traffic loads and prevent data corruption...",
+      "description": "An enterprise-grade .NET 8 Web API built to handle extreme traffic loads and prevent data corruption during race conditions.\nThis project demonstrates a production-ready approach to Backend Software Development, featuring strict Clean Architecture (N-Tier), decoupled infrastructure, and advanced Entity Framework Core configurations.",
       "url": null
     }
   ],
   "certifications": [
     {
+      "start_date": "09/2024",
+      "end_date": null,
+      "name": "Django Web Framework",
+      "authority": "Meta",
+      "url": "https://coursera.org/share/3302b098c7bc9de2a5b6c6ce00e5ee34",
+      "license_number": null
+    },
+    {
+      "start_date": "01/2024",
+      "end_date": null,
+      "name": "Agile with Atlassian Jira ",
+      "authority": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/PZJ2NZPQ23H2",
+      "license_number": null
+    },
+    {
       "start_date": "03/2026",
       "end_date": null,
       "name": "Model Context Protocol: Advanced Topics",
       "authority": "Anthropic",
-      "url": "[https://verify.skilljar.com/c/wwekp9tbo78f](https://verify.skilljar.com/c/wwekp9tbo78f)",
+      "url": "https://verify.skilljar.com/c/wwekp9tbo78f",
       "license_number": "wwekp9tbo78f"
+    },
+    {
+      "start_date": "03/2026",
+      "end_date": null,
+      "name": "Introduction to Model Context Protocol",
+      "authority": "Anthropic",
+      "url": "https://verify.skilljar.com/c/3frwhj7m2xnw",
+      "license_number": "3frwhj7m2xnw"
+    },
+    {
+      "start_date": "12/2025",
+      "end_date": null,
+      "name": "Machine Learning Specialization",
+      "authority": "Coursera",
+      "url": "https://coursera.org/share/434356a68a36d2dfb8ff1ecbc6504575",
+      "license_number": null
+    },
+    {
+      "start_date": "06/2026",
+      "end_date": null,
+      "name": "AWS AI Practitioner Challenge",
+      "authority": "Udacity",
+      "url": "https://www.udacity.com/certificate/e/9ad5820c-30e2-11f1-9b2c-238032504de8",
+      "license_number": "9ad5820c-30e2-11f1-9b2c-238032504de8"
     }
   ],
   "skills": [
@@ -248,14 +296,23 @@ curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=http
     "MySQL",
     ".NET 8",
     "Amazon Web Services (AWS)",
+    "Scheduled Task",
     "Clean Architecture (N-Tier)",
+    "Stored Procedures",
+    "Model Context Protocol (MCP)",
     "REST APIs",
+    "Postman API",
     "Entity Framework (EF) Core",
-    "Python (Programming Language)"
+    "Git",
+    "Artificial Intelligence (AI)",
+    "MCP Server",
+    "Microservices",
+    "Bitbucket",
+    "PL/SQL"
   ],
   "languages": [
-    "English",
-    "Hindi"
+    "Hindi",
+    "English"
   ]
 }
 ```
