@@ -1,4 +1,4 @@
-# LinkedIn Voyager Profile Scraper API
+# 🚀 LinkedIn Voyager Profile Scraper API
 
 A high-performance, asynchronous REST API built with FastAPI that extracts comprehensive LinkedIn profile data by reverse-engineering LinkedIn’s internal Voyager REST API.
 
@@ -54,7 +54,7 @@ tross-linkedin-api/
 
 ---
 
-## Input Validation & Error Handling
+## 🔒 Input Validation & Error Handling
 
 The API implements defensive error handling to prevent runtime crashes and provide descriptive HTTP status codes:
 
@@ -70,7 +70,7 @@ The API implements defensive error handling to prevent runtime crashes and provi
 
 ---
 
-## Local Setup & Installation
+## 🛠️ Local Setup & Installation
 
 ### 1. Prerequisites
 * Python 3.11 or higher
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 
 ---
 
-## Environment Configuration
+## 📦 Environment Configuration
 
 The API requires authentication cookies extracted from an active LinkedIn browser session.
 
@@ -117,7 +117,7 @@ The API requires authentication cookies extracted from an active LinkedIn browse
    * **`JSESSIONID`**: A string formatted like `"ajax:1234567890123456789"`.
 5. Close the browser tab. **Do not click "Sign Out"**, as logging out immediately invalidates the tokens on LinkedIn's backend.
 
-### Setting up `.env`:
+### 🔐 Setting up `.env`:
 Create a `.env` file in the root directory:
 
 ```env
@@ -157,7 +157,7 @@ The API will be accessible at `http://localhost:8000/docs`.
 
 ---
 
-## API Reference
+## 🌐 API Reference
 
 ### `GET /api/profile`
 Fetches and structures public data from any valid LinkedIn personal profile.
@@ -173,7 +173,7 @@ curl -X GET "[http://127.0.0.1:8000/api/profile?url=https://www.linkedin.com/in/
      -H "accept: application/json"
 ```
 
-#### Example JSON Output:
+#### 📄 Example JSON Output:
 ```json
 {
   "public_identifier": "shivam-sagar-002263209",
@@ -262,7 +262,7 @@ curl -X GET "[http://127.0.0.1:8000/api/profile?url=https://www.linkedin.com/in/
 
 ---
 
-## Cloud Deployment (Render / Railway)
+## 🐳 Cloud Deployment (Render / Railway)
 
 1. Push your code to a GitHub repository (ensure `.env` is **not** committed).
 2. Create a new **Web Service** on [Render](https://render.com) or [Railway](https://railway.app) and connect your repository.
@@ -277,7 +277,7 @@ curl -X GET "[http://127.0.0.1:8000/api/profile?url=https://www.linkedin.com/in/
 
 ---
 
-## Technical Constraints & Design Decisions
+## ⚙️ Technical Constraints & Design Decisions
 
 * **Hierarchical Schema over Flat CSV:** Instead of flattening job titles and schools into repetitive top-level properties (e.g., `previousSchoolDegree1`, `previousSchoolDegree2`), data is organized into clean, nested arrays (`experiences`, `educations`). This structure matches REST API standards and simplifies frontend integration.
 * **Network Efficiency vs. Network Count:** Connection counts and follower totals reside in separate Voyager network endpoints (`/networkinfo`). To keep profile fetching atomic and preserve single-request latency, this endpoint focuses entirely on complete entity resolution (`FullProfileWithEntities-103`).
