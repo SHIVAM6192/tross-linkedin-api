@@ -6,19 +6,33 @@ Unlike traditional browser-automation scrapers (such as Selenium or Puppeteer), 
 
 ---
 
-## Key Features & Engineering Highlights
+---
 
-* **Asynchronous Networking:** Built on `httpx.AsyncClient` with non-blocking I/O for concurrent request handling.
-* **Modular Clean Architecture:** Strict separation between network ingestion (`services.py`), data modeling (`schemas.py`), domain constants (`constants.py`), and entity normalization (`ProfileParser.py`).
-* **Entity URN Resolution:** Automatically builds in-memory relational lookup tables to resolve LinkedIn URN hashes (such as Company IDs and Skill URNs) to human-readable strings.
-* **Featured Media & Asset Extraction:** Extracts resume documents, portfolio PDF links, LeetCode profile links, and high-resolution CDN image URLs (profile and banner).
-* **Multi-Layer Validation:** Enforces strict URL pattern checks and detects expired or revoked session cookies before processing.
-* **Production-Grade Logging:** Configured with structured timestamps and severity levels across routes and service modules.
-* **Container Ready:** Fully Dockerized with dynamic port binding for seamless cloud deployment.
+## 🔗 Live Interactive Demo
+
+The API is deployed on the Render free tier. You can test it immediately using the interactive documentation interfaces:
+
+* 🟢 **Swagger UI:** [https://tross-linkedin-api-e6y1.onrender.com/docs](https://tross-linkedin-api-e6y1.onrender.com/docs)
+* 🔵 **ReDoc UI:** [https://tross-linkedin-api-e6y1.onrender.com/redoc](https://tross-linkedin-api-e6y1.onrender.com/redoc)
+
+**🧪 Sample Test URL:**
+Copy and paste this URL into the Swagger UI `url` parameter to test the payload extraction:
+`https://www.linkedin.com/in/shivam-sagar-002263209/`
 
 ---
 
-## Project Structure
+## ✨ Key Features & Engineering Highlights
+
+* ⚡ **Asynchronous Networking:** Built on `httpx.AsyncClient` with non-blocking I/O for concurrent request handling.
+* 🧱 **Modular Clean Architecture:** Strict separation between network ingestion (`services.py`), data modeling (`schemas.py`), domain constants (`constants.py`), and entity normalization (`ProfileParser.py`).
+* 🛡️ **Built-in Rate Limiting:** Implements IP-based sliding window rate-limiting via `slowapi` to protect the API from DDoS attacks or runaway scripts, safely enforcing a threshold of **10 requests per minute** per client.
+* 🧬 **Entity URN Resolution:** Automatically builds in-memory relational lookup tables to resolve LinkedIn URN hashes (such as Company IDs and Skill URNs) to human-readable strings.
+* 📸 **Asset Extraction:** Extracts resume documents, portfolio PDF links, LeetCode profiles, and high-resolution CDN images (profile and banner).
+* 🐳 **Container Ready:** Fully Dockerized with dynamic port binding for seamless cloud deployment.
+
+---
+
+## 📂 Project Structure
 
 ```text
 tross-linkedin-api/
