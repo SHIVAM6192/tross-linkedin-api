@@ -169,7 +169,7 @@ Fetches and structures public data from any valid LinkedIn personal profile.
 
 #### Example Request:
 ```bash
-curl -X GET "[http://127.0.0.1:8000/api/profile?url=https://www.linkedin.com/in/shivam-sagar-002263209/](http://127.0.0.1:8000/api/profile?url=https://www.linkedin.com/in/shivam-sagar-002263209/)" \
+curl -X GET \ "https://tross-linkedin-api-e6y1.onrender.com/api/profile?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fshivam-sagar-002263209%2F" \
      -H "accept: application/json"
 ```
 
