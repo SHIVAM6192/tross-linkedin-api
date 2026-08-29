@@ -32,7 +32,6 @@ tross-linkedin-api/
 │   └── constants.py          # Centralized LinkedIn Voyager entity types and namespaces
 │
 ├── .dockerignore             # Excludes local caches, logs, and sensitive files from Docker
-├── .env.example              # Template for required environment variables
 ├── .gitignore                # Prevents committing virtual environments and secret keys
 ├── Dockerfile                # Production multi-stage Docker build configuration
 ├── README.md                 # Complete system documentation
